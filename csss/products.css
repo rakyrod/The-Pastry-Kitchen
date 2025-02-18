@@ -1,0 +1,349 @@
+body { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.navigation-container {
+    height: 22%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1b3c3d;
+    z-index: 1000; 
+
+
+}
+
+.nav-bar  { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-nav  {
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navigations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navi-bar { 
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.navi-bar a { 
+    list-style: none;
+    color: rgb(190, 196, 106);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+
+}
+.section-hero {
+    display: flex;
+    
+}
+.hero-container {
+    padding-left: 30px;
+}
+.hero-container img{ 
+    width: 110vh;
+    height: 55vh;
+    border-radius: 12px;
+}
+.name-web h2 { 
+    padding-left: 40px;
+    text-decoration: none;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+}
+.name-web p {
+    padding-left:29%;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 500;
+
+}
+
+.opening-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px;
+    padding: 20px 20px;
+    background-color: #1b3c3d;
+}
+
+.logo {
+   width: 20%;
+   
+
+}
+
+.opening-times {
+    text-align: left; 
+    color: rgb(190, 196, 106);
+}
+
+.opening-times h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 400;
+}
+
+.opening-times .day {
+    font-weight: bold;
+    display: inline-block;
+    width: 70px; 
+}
+
+.opening-times .time {
+    display: inline-block;
+}
+
+.contact {
+    padding: 7%;
+}
+.contact i {
+    color: rgb(190, 196, 106);
+    padding-right: 10px;
+}
+.contact p { 
+    font-size: 20px;
+    color: rgb(207, 203, 203);
+}
+
+.contact h1 {
+    text-align: center;
+        color: rgb(190, 196, 106);
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+        font-weight: 400;
+}
+.products-section { 
+    display: flex;
+    padding-top: 10px;
+    
+}
+.products-container img {
+    width: 18%;
+    padding-left: 30px;
+    border-radius: 9px;
+}
+.name-web h1 {
+    padding-left: 24%;
+    font-size: 30px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 500;
+}
+.green { 
+    font-weight: 200;
+    color: #1b3c3d;
+}
+.product-section { 
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: baseline;
+}
+.products { 
+    padding-right: 10%;
+    padding-left: 40px;
+}
+
+.product-price {
+    text-align: center;
+}
+.add { 
+    display: flex;
+    justify-content: center;
+}
+.addtocart {
+    padding: 10px;
+    color: #1b3c3d;
+    min-width: 20px;
+}
+.soup-section { 
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    padding-top: 15px;
+}
+.soup-container { 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 24px;
+}
+.soup-container img { 
+    max-width: 280px;
+    padding-left: 10px;
+    border-radius: 9px;
+    height: 30%;
+
+}
+.name-soup {
+    display: flex;
+    justify-content: center;
+    padding-right: 37%;
+    padding-top: 20px;
+    
+}
+
+.name-soup h1 {
+    font-size: 30px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 500;
+    color: #1b3c3d;
+}
+
+.soupsection { 
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: row;
+    
+}
+.soup-name { 
+    text-align: center;
+    padding-left: 30px;
+}
+.soup-product { 
+    padding-left: 26px;
+    text-align: center;
+}
+.soup-name1 { 
+    padding-left: 70px;
+}
+.soup-price1 { 
+    padding-left: 60px;
+    
+}
+.addsoupp { 
+    padding-left: 70px;
+    color: #1b3c3d;
+}
+.addsoup1 {
+    padding: 10px;
+}
+.addsoup { 
+    padding: 10px;
+    color: #1b3c3d;
+}
+
+.container-3 { 
+    display: flex;
+}
+.container-3 img {
+    width: 100%;
+    display: flex;
+    height: 15vw;
+}
+.soup-2 { 
+    padding-left: 20px;
+}
+
+.addto {
+    padding-right: 26px;
+}
+
+.title-name {
+    text-align: center;
+    padding-right: 36%;
+    padding-top: 23px
+}
+.title-name h1 {
+    font-size: 30px;
+    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-weight: 500;
+    color: #1b3c3d;
+}
+.other-products { 
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    padding-top: 10px;
+}
+.prod-container {
+    gap: 20px;
+    display: flex;
+    padding-left: 20px;
+  
+
+}
+.prod-container img {
+        width: 30%;    
+        height: 14vw;
+        border-radius: 12px;
+
+}
+.pumpkin-section { 
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content:  baseline; 
+    align-items:  baseline; 
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pumpkin-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding-left: 75px;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+.pumpkin-container img {
+    width: 100%;  
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.pumpkin-price {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.addpump {
+  
+    cursor: pointer;
+  
+    padding: 10px;
+
+}
+.pumpkin-name1 {
+    padding-right: 40px;
+}
+
+.pumpkin-price1 { 
+    padding-right: 40px;
+}
+.addpumpcon { 
+    padding-right: 40px;
+}
+.addpump1 {
+    padding: 10px;
+}
