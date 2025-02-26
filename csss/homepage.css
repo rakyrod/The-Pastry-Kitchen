@@ -5,7 +5,7 @@ body {
     padding-top: 90px;
 }
 .navigation-container {
-    height: 22%; 
+    height:16%; 
     position: fixed;
     top: 0;
     left: 0;
@@ -18,11 +18,10 @@ body {
 
 .nav-bar  { 
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .logo-nav  {
-    width: 9%;
+    width: 8%;
+    padding-left: 10px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,6 +296,8 @@ body {
 .navigations {
     display: flex;
     justify-content: center;
+    padding-left: 28vw;
+    padding-top: 30px;
     align-items: center;
 }
 
