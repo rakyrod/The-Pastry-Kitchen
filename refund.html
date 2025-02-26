@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csss/refund.css">
+    <title>Refund Request Form</title>
+</head>
+<body>
+
+    <div class="title">
+        <h1>Refund Request Form</h1>
+    </div>
+
+    <section class="refund-section">
+        <form class="form-container" action="refund.html" method="post">
+            <div class="input-container">
+                <label for="name">Name</label>
+                <div class="name-group">
+                    <input type="text" class="first-name" id="name" placeholder="First Name" required>
+                    <input type="text" class="last-name" id="lastname" placeholder="Last Name" required>
+                </div>
+    
+                <label for="email">Email</label>
+                <input type="email" class="email" id="email" placeholder="example@example.com" required>
+    
+                <label for="request-date">Request Date</label>
+                <input type="date" id="request-date">
+    
+                <label class="reason">Reason for Refund</label>
+                <div class="refund-reasons">
+                    <label><input type="radio" name="refund-reason" value="wrong-order"> Wrong Order Received</label>
+                    <label><input type="radio" name="refund-reason" value="quality-issues"> Quality Issues</label>
+                    <label><input type="radio" name="refund-reason" value="damaged-product"> Damaged Product</label>
+                    <label><input type="radio" name="refund-reason" value="allergy"> Allergy Concerns</label>
+                </div>
+    
+                <label for="product-name">Product Name</label>
+                <input type="text" id="product-name" class="product-name" required>
+    
+                <label for="notes">Additional Notes</label>
+                <textarea id="notes" class="notes" rows="4"></textarea>
+    
+                <div class="checkbox-group">
+                    <input type="checkbox" name="checkbox" required>
+                    <label>I agree the refund money will be sent back to the account I paid</label>
+                </div>
+    
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
