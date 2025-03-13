@@ -3,7 +3,7 @@
 $servername = "localhost"; // Change if using a remote DB
 $username = "root"; // Default XAMPP MySQL user
 $password = ""; // Default is empty
-$dbname = "your_database_name"; // Change this to your actual DB name
+$dbname = "bakery"; // Change this to your actual DB name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
